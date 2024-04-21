@@ -45,9 +45,9 @@ Last Base Language Update: bSID-DEV_240421*/
         --FCL-AT_CBM: var(--Q)"CBM"var(--Q)" is a transparent looking Theme where you can set your own image!";
         --FCL-AT_CBM-Light: var(--FCL-AT_CBM) " This is the light variant of this theme, it may come at some visibility issues however.\A" var(--FCL-AT_Wiki);
         --FCL-AT_CBM-Dark: var(--FCL-AT_CBM) " This is the ideal variant of " var(--Q)"CBM"var(--Q)" to use!\A" var(--FCL-AT_Wiki);
-        --FCL-AT_Iridescent: "This is" var(--FCL-Theme_Iridescent)". The most ressource heavy mode of Flashcord. \A If you wanted a pure shot of eye candy, you've come to the right place. ⛔ PLEASE USE ON HIGH-END SYSTEMS ONLY.\A"
-        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) "This is the light variant and recommended way to use " var(--FCL-Theme_Iridescent)".";
-        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) "This is the dark variant, but isn't recommended due to visibility issues.";
+        --FCL-AT_Iridescent: "This is" var(--FCL-Theme_Iridescent)". The most ressource heavy mode of Flashcord. \A If you wanted a pure shot of eye candy, you've come to the right place. ⛔ PLEASE USE ON HIGH-END SYSTEMS ONLY.\A";
+        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) "This is the light variant and recommended way to use" var(--FCL-Theme_Iridescent)".";
+        --FCL-AT_Iridescent-Dark: var(--FCL-AT_Iridescent) "This is the dark variant, but isn't recommended due to visibility issues.";
         --FCL-AT_Terminal: "Terminal Mode is a Theme that tries to mimic the style of a Retro GNU/Linux TTY.";
         --FCL-AT_Transparent: "Transparent Mode is currently not working. It will in future versions of Replugged and Flashcord.";
 
