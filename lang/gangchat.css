@@ -1,4 +1,4 @@
-@container GangChat (min-width: 0px) { /* Alright you sussy wankers */
+@container GangChat (min-width: 0) { /* Alright you sussy wankers */
     .platform-win [class^="notAppAsidePanel_"]::before { content: "🪟 "var(--FlashCore-Branch) " " var(--FlashCore-Channel) "-" var(--FlashCore-Version)" | Report Sirius's stupidity in #🐞sgn-issues-reports on the SGN Discord Server." }
 
     #app-mount > div {
@@ -35,8 +35,6 @@
         --FCL-AT_Terminal: "debian sid > arch linux :trolley:";
         --FCL-AT_Transparent: "I CANT SEE SHIT";
 
-        --FCL-Store-Link: "✅ Cringe Store Link";
-
         --FCL-Effect: "\A 🎉 Flashcord Benchmark:"
         --FCL-Effect_Small:  var(--FCL-Effect) " your dong's size";
         --FCL-Effect_Shaking: var(--FCL-Effect) " your mom walking to your room";
@@ -46,18 +44,6 @@
         --FCL-Effect_Wide:  var(--FCL-Effect) " DAMN BOII HE THICC";
 
         --FCL-Addon_Welcome: "\A\A📸 u using " var(--FlashCore-Branch) " on the " var(--FlashCore-Channel) " branch of cringecord.\A\A";
-        --FCL-Warning_PluginsCompatibility: "\A\A⚠️ plugins will destroy ohio.\A\A";
-        --FCL-PluginC_Flashcord-Store: "Approved by Sirius, meaning approved by fr*nch, use at your own risk. \A\A";
-
-        --FCL-Addon: "";
-        --FCL-Addon_Required: "YOU BETTER USE THIS SHIT RIGHT NOW OR IM GONNA 💥\A\A";
-        --FCL-Addon_Recommended: "❤️ use this useless thing\A\A";
-        --FCL-Addon_Compatible: "✅ this thing doesn't break flashcord\A\A";
-        --FCL-Addon_MinorIssues: "⚠️ this breaks flashcord \A\A";
-        --FCL-Addon_Incompatible: "⛔ this will cause ww3\A\A";
-        --FCL-Addon_Unknown: "who?\A\A";
-
-        --FCL-PluginC_FlashcordApproved: "✅ Cringe Store Approved Plugin \A\A";
 
         --FCL-Credits_About: "\A Flashcord Lore";
 
