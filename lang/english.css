@@ -9,9 +9,9 @@ would turn into
 --FCL-[Something] represents a CSS variable AND SHOULD NOT BE TRANSLATED, only the part AFTER the ":" should be.
 Translations should be accurate but if you can pick the funny option, go ahead, this is a silly theme, not nuclear launch codes.
 "\A" Represents a line break. There may be variables inside the strings, don't touch them!
-Last Base Language Update: bSID-DEV_240421*/
+Last Base Language Update: bSID-DEV_240422 Release Candidate 3*/
 
-@container English (min-width: 0px) {
+@container English (min-width: 0) {
     /* bSID-DEV_240420: THIS PILE OF SHIT DOESNT FUCKING PARSE --FCL-WINDOWS NO MATTER WHAT THE FUCK I DO, I HAVE TO HARDCODE THIS SHIT, WHY??? ITS UGLY TOO THIS SHOULD BELONG TO KERNEL/RING3 NOT HERE GOD DAMN IT */
     .platform-win [class^="notAppAsidePanel_"]::before { content: "🪟 " var(--FlashCore-Branch) " " var(--FlashCore-Channel) "-" var(--FlashCore-Version)" | Report bugs in #🐞sgn-issues-reports on the SGN Discord Server." }
 
@@ -51,8 +51,6 @@ Last Base Language Update: bSID-DEV_240421*/
         --FCL-AT_Terminal: "Terminal Mode is a Theme that tries to mimic the style of a Retro GNU/Linux TTY.";
         --FCL-AT_Transparent: "Transparent Mode is currently not working. It will in future versions of Replugged and Flashcord.";
 
-        --FCL-Store-Link: "✅ Flashcord Store Link";
-
         --FCL-Effect: "\A 🎉 Flashcord Effect:"
         --FCL-Effect_Small:  var(--FCL-Effect) " Small";
         --FCL-Effect_Shaking: var(--FCL-Effect) " Shaking";
@@ -61,20 +59,7 @@ Last Base Language Update: bSID-DEV_240421*/
         --FCL-Effect_4Chan: var(--FCL-Effect) " 4Chan";
         --FCL-Effect_Wide:  var(--FCL-Effect) " Wide";
 
-
         --FCL-Addon_Welcome: "\A\A📸 Welcome to " var(--FlashCore-Branch) " ! You are using the " var(--FlashCore-Channel) " Channel of Flashcord.\A\A";
-        --FCL-Warning_PluginsCompatibility: "\A\A⚠️ As of right now, approved plugins may actually have minor issues with Flashcord.\A\A";
-        --FCL-PluginC_Flashcord-Store: "This plugin was approved for the Flashcord Store, but wasn't by Replugged, use at your own risk.\A\A";
-
-        --FCL-Addon: "🔧 Flashcord Compatibility:";
-        --FCL-Addon_Required: var(--FCL-Addon) " 💥 Required Plugin\A\A";
-        --FCL-Addon_Recommended: var(--FCL-Addon) " ❤️ Recommended\A\A";
-        --FCL-Addon_Compatible: var(--FCL-Addon) " ✅ Compatible\A\A";
-        --FCL-Addon_MinorIssues: var(--FCL-Addon) " ⚠️ Minor Issues\A\A";
-        --FCL-Addon_Incompatible: var(--FCL-Addon) " ⛔ Incompatible, disable Flashcord\A\A";
-        --FCL-Addon_Unknown: var(--FCL-Addon) " ❓ Unknown\A\A";
-
-        --FCL-PluginC_FlashcordApproved: "✅ Flashcord Store Approved Plugin \A\A";
 
         --FCL-Credits_About: "\A About Flashcord";
 
