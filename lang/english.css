@@ -9,7 +9,7 @@ would turn into
 --FCL-[Something] represents a CSS variable AND SHOULD NOT BE TRANSLATED, only the part AFTER the ":" should be.
 Translations should be accurate but if you can pick the funny option, go ahead, this is a silly theme, not nuclear launch codes.
 "\A" Represents a line break. There may be variables inside the strings, don't touch them!
-Last Base Language Update: bSID-DEV_240422 Release Candidate 3*/
+Last Base Language Update: bSID-DEV_240423*/
 
 @container English (min-width: 0) {
     /* bSID-DEV_240420: THIS PILE OF SHIT DOESNT FUCKING PARSE --FCL-WINDOWS NO MATTER WHAT THE FUCK I DO, I HAVE TO HARDCODE THIS SHIT, WHY??? ITS UGLY TOO THIS SHOULD BELONG TO KERNEL/RING3 NOT HERE GOD DAMN IT */
@@ -51,7 +51,7 @@ Last Base Language Update: bSID-DEV_240422 Release Candidate 3*/
         --FCL-AT_Terminal: "Terminal Mode is a Theme that tries to mimic the style of a Retro GNU/Linux TTY.";
         --FCL-AT_Transparent: "Transparent Mode is currently not working. It will in future versions of Replugged and Flashcord.";
 
-        --FCL-Effect: "\A 🎉 Flashcord Effect:"
+        --FCL-Effect: "\A 🎉 Flashcord Effect:";
         --FCL-Effect_Small:  var(--FCL-Effect) " Small";
         --FCL-Effect_Shaking: var(--FCL-Effect) " Shaking";
         --FCL-Effect_Dramatic: var(--FCL-Effect) " Dramatic";
