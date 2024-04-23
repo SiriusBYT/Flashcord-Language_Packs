@@ -12,73 +12,72 @@ Translations should be accurate but if you can pick the funny option, go ahead, 
 Last Base Language Update: bSID-DEV_240423*/
 
 @container English (min-width: 0) {
-    /* bSID-DEV_240420: THIS PILE OF SHIT DOESNT FUCKING PARSE --FCL-WINDOWS NO MATTER WHAT THE FUCK I DO, I HAVE TO HARDCODE THIS SHIT, WHY??? ITS UGLY TOO THIS SHOULD BELONG TO KERNEL/RING3 NOT HERE GOD DAMN IT */
-    .platform-win [class^="notAppAsidePanel_"]::before { content: "🪟 " var(--FlashCore-Branch) " " var(--FlashCore-Channel) "-" var(--FlashCore-Version)" | Report bugs in #🐞sgn-issues-reports on the SGN Discord Server." }
+    /* bSID-DEV_240420: THIS PILE OF SHIT DOESNT FUCKING PARSE --FCL-WINDOWS NO MATTER WHAT THE FUCK I DO, I HAVE TO HARDCODE THIS SHIT, WHY??? ITS UGLY TOO THIS SHOULD BELONG TO KERNEL/RING3 NOT HERE GOD DAMN IT */
+    .platform-win [class^="notAppAsidePanel_"]::before { content: "🪟 " var(--FlashCore-Branch) " " var(--FlashCore-Channel) "-" var(--FlashCore-Version)" | Report bugs in #🐞sgn-issues-reports on the SGN Discord Server." }
 
-    #app-mount > div {
-        --FCL-Crash_Header: "Oh dear. Your Discord Client has Crashed.";
-        --FCL-Crash_Paragraph: "You may try the reload button below, however this button may lock you up in a crash loop. \A I'd suggest closing entirely Discord and relaunching it for better chances of recovery.";
-    
-        --FCL-Blackout_Android: "⚠️ You are having connection problems.";
+    #app-mount > div {
+        --FCL-Crash_Header: "Oh dear. Your Discord Client has Crashed.";
+        --FCL-Crash_Paragraph: "You may try the reload button below, however this button may lock you up in a crash loop. \A I'd suggest closing entirely Discord and relaunching it for better chances of recovery.";
+    
+        --FCL-Blackout_Android: "⚠️ You are having connection problems.";
 
-        --FCL-Theme_Light: " ☀️ Light Mode";
-        --FCL-Theme_Dark: " 🌙 Dark Mode";
-        --FCL-Theme_Sync: " 🕒 Sync Mode";
-        --FCL-Theme_CBM-Light: " 🖼️ Light Custom Background Mode";
-        --FCL-Theme_CBM-Dark: " 🖼️ Dark Custom Background Mode";
-        --FCL-Theme_Iridescent:  " 💥 Iridescent Mode";
-        --FCL-Theme_Terminal:  " 💾 Terminal Mode";
-        --FCL-Theme_Transparent: " 👻 Transparent Mode";
+        --FCL-Theme_Light: " ☀️ Light Mode";
+        --FCL-Theme_Dark: " 🌙 Dark Mode";
+        --FCL-Theme_Sync: " 🕒 Sync Mode";
+        --FCL-Theme_CBM-Light: " 🖼️ Light Custom Background Mode";
+        --FCL-Theme_CBM-Dark: " 🖼️ Dark Custom Background Mode";
+        --FCL-Theme_Iridescent:  " 💥 Iridescent Mode";
+        --FCL-Theme_Terminal:  " 💾 Terminal Mode";
+        --FCL-Theme_Transparent: " 👻 Transparent Mode";
 
-        --FCL-Warning_Beta: "  ⚠️ Flashcord is in Beta.";
-        --FCL-Warning_Unfinished: " is unfinished.  ";
-        --FCL-Warning_Deprecated: "  ⛔ Custom Background Mode without ThemeHooker is no longer supported.  ";
-    
-        --FCL-AT_Basic: "📷 Flashcord Basic Themes";
-        --FCL-AT_Advanced: "📸 Flashcord Advanced Themes";
-        --FCL-AT_Wiki: "📖 Refer yourself to the Flashcord Wiki for more information.";
-        --FCL-AT_Notice: "Please note that " var(--Q)"Advanced Themes"var(--Q) " are not to be confused with Flashcord modules.\A" var(--FCL-AT_Wiki);
-        --FCL-AT_Requirements: "⚠️ Advanced Themes require " var(--Q) "LegalDiscordBypasses" var(--Q) " or Discord Nitro to enable them. \A";
-        --FCL-AT_ThemeHooker: var(--FCL-AT_Requirements) "✅ " var(--Q) "ThemeHooker" var(--Q) " is present and has enabled new themes.";
-        --FCL-AT_No-ThemeHooker: var(--FCL-AT_Requirements) "⛔ " var(--Q) "ThemeHooker" var(--Q) " is missing. This is no longer supported and you WILL run into issues!";
+        --FCL-Warning_Beta: "  ⚠️ Flashcord is in Beta.";
+        --FCL-Warning_Unfinished: " is unfinished.  ";
+        --FCL-Warning_Deprecated: "  ⛔ Custom Background Mode without ThemeHooker is no longer supported.  ";
+    
+        --FCL-AT_Basic: "📷 Flashcord Basic Themes";
+        --FCL-AT_Advanced: "📸 Flashcord Advanced Themes";
+        --FCL-AT_Wiki: "📖 Refer yourself to the Flashcord Wiki for more information.";
+        --FCL-AT_Notice: "Please note that " var(--Q)"Advanced Themes"var(--Q) " are not to be confused with Flashcord modules.\A" var(--FCL-AT_Wiki);
+        --FCL-AT_Requirements: "⚠️ Advanced Themes require " var(--Q) "LegalDiscordBypasses" var(--Q) " or Discord Nitro to enable them. \A";
+        --FCL-AT_ThemeHooker: var(--FCL-AT_Requirements) "✅ " var(--Q) "ThemeHooker" var(--Q) " is present and has enabled new themes.";
+        --FCL-AT_No-ThemeHooker: var(--FCL-AT_Requirements) "⛔ " var(--Q) "ThemeHooker" var(--Q) " is missing. This is no longer supported and you WILL run into issues!";
 
-        --FCL-AT_CBM: var(--Q)"CBM"var(--Q)" is a transparent looking Theme where you can set your own image!";
-        --FCL-AT_CBM-Light: var(--FCL-AT_CBM) " This is the light variant of this theme, it may come at some visibility issues however.\A" var(--FCL-AT_Wiki);
-        --FCL-AT_CBM-Dark: var(--FCL-AT_CBM) " This is the ideal variant of " var(--Q)"CBM"var(--Q)" to use!\A" var(--FCL-AT_Wiki);
-        --FCL-AT_Iridescent: "This is" var(--FCL-Theme_Iridescent)". The most ressource heavy mode of Flashcord. \A If you wanted a pure shot of eye candy, you've come to the right place. ⛔ PLEASE USE ON HIGH-END SYSTEMS ONLY.\A";
-        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) "This is the light variant and recommended way to use" var(--FCL-Theme_Iridescent)".";
-        --FCL-AT_Iridescent-Dark: var(--FCL-AT_Iridescent) "This is the dark variant, but isn't recommended due to visibility issues.";
-        --FCL-AT_Terminal: "Terminal Mode is a Theme that tries to mimic the style of a Retro GNU/Linux TTY.";
-        --FCL-AT_Transparent: "Transparent Mode is currently not working. It will in future versions of Replugged and Flashcord.";
+        --FCL-AT_CBM: var(--Q)"CBM"var(--Q)" is a transparent looking Theme where you can set your own image!";
+        --FCL-AT_CBM-Light: var(--FCL-AT_CBM) " This is the light variant of this theme, it may come at some visibility issues however.\A" var(--FCL-AT_Wiki);
+        --FCL-AT_CBM-Dark: var(--FCL-AT_CBM) " This is the ideal variant of " var(--Q)"CBM"var(--Q)" to use!\A" var(--FCL-AT_Wiki);
+        --FCL-AT_Iridescent: "This is" var(--FCL-Theme_Iridescent)". The most ressource heavy mode of Flashcord. \A If you wanted a pure shot of eye candy, you've come to the right place. ⛔ PLEASE USE ON HIGH-END SYSTEMS ONLY.\A";
+        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) "This is the light variant and recommended way to use" var(--FCL-Theme_Iridescent)".";
+        --FCL-AT_Iridescent-Dark: var(--FCL-AT_Iridescent) "This is the dark variant, but isn't recommended due to visibility issues.";
+        --FCL-AT_Terminal: var(--FCL-Theme_Terminal) " is a Theme that tries to mimic the style of a Retro GNU/Linux TTY.";
+        --FCL-AT_Transparent: var(--FCL-Theme_Transparent) " is currently not working. It will in future versions of Replugged and Flashcord.";
 
-        --FCL-Effect: "\A 🎉 Flashcord Effect:";
-        --FCL-Effect_Small:  var(--FCL-Effect) " Small";
-        --FCL-Effect_Shaking: var(--FCL-Effect) " Shaking";
-        --FCL-Effect_Dramatic: var(--FCL-Effect) " Dramatic";
-        --FCL-Effect_Fade-Bottom: var(--FCL-Effect) " Fading from the Bottom";
-        --FCL-Effect_4Chan: var(--FCL-Effect) " 4Chan";
-        --FCL-Effect_Wide:  var(--FCL-Effect) " Wide";
+        --FCL-Effect: "\A 🎉 Flashcord Effect:";
+        --FCL-Effect_Small:  var(--FCL-Effect) " Small";
+        --FCL-Effect_Shaking: var(--FCL-Effect) " Shaking";
+        --FCL-Effect_Dramatic: var(--FCL-Effect) " Dramatic";
+        --FCL-Effect_Fade-Bottom: var(--FCL-Effect) " Fading from the Bottom";
+        --FCL-Effect_4Chan: var(--FCL-Effect) " 4Chan";
+        --FCL-Effect_Wide:  var(--FCL-Effect) " Wide";
 
-        --FCL-Addon_Welcome: "\A\A📸 Welcome to " var(--FlashCore-Branch) " ! You are using the " var(--FlashCore-Channel) " Channel of Flashcord.\A\A";
+        --FCL-Addon_Welcome: "\A\A📸 Welcome to " var(--FlashCore-Branch) " ! You are using the " var(--FlashCore-Channel) " Channel of Flashcord.\A\A";
 
-        --FCL-Credits_About: "\A About Flashcord";
+        --FCL-Credits_About: "\A About Flashcord";
 
-        --FCL-Credits_SNDL: "Flashcord is a personal project maintained with love by SiriusBYT, it takes the design language of " var(--Q) "SNWE/SNDL" var(--Q) " and applies it to Discord. \A";
-        --FCL-Credits_Help: "Support is held on The Sirio Network Discord Server (https://sirio-network.com/redirect/discord). \A\A";
-        --FCL-Credits_Alpha: "Please give a thanks to these amazing people who helped with the Closed Alpha of Flashcord 💖 \A";
-        --FCL-Credits_Suppoters: "Of course, thanks to you, Flashcord Supporters 💸! \A";
-        --FCL-Credits_Translators: "🌐 Flashcord can be used anywhere around the world thanks to these people: \A";
-        --FCL-Credits_SGN: "Thanks to those who joined the SGN Discord Server for Flashcord 🗣️ ! \A";
-        --FCL-Credits_GitHub: "And finally, thanks for those who stared the Flashcord GitHub Repo ✨ ! \A";
-        --FCL-Credits_Special: "🌠 Special Thanks: \A";
-        --FCL-Credits_Evelyn: "- Evelyn: Created " var(--Q) "Magnificent" var(--Q) " and was ok being bullied by me to fix specific bugs that were found when using Flashcord \A";
-        --FCL-Credits_Tharki: "- Tharki-God: Person to have given me the idea (accidentally) to create the Plugins section of the Flashcord Store \A";
-        --FCL-Credits_East-Arctica: "- East_Arctica: Posted a plugin to the Flashcord Store, also is just in general a super cool person \A\A";
-        --FCL-Credits_Copyright: "Flashcord © 2023-2024 by SiriusBYT is licensed under CC BY-NC-ND 4.0. \A\A\A\A\A\A\A\A\A\A";
+        --FCL-Credits_SNDL: "Flashcord is a personal project maintained with love by SiriusBYT, it takes the design language of " var(--Q) "SNWE/SNDL" var(--Q) " and applies it to Discord. \A";
+        --FCL-Credits_Help: "Support is held on The Sirio Network Discord Server (https://sirio-network.com/redirect/discord). \A\A";
+        --FCL-Credits_Alpha: "Please give a thanks to these amazing people who helped with the Closed Alpha of Flashcord 💖 \A";
+        --FCL-Credits_Suppoters: "Of course, thanks to you, Flashcord Supporters 💸! \A";
+        --FCL-Credits_Translators: "🌐 Flashcord can be used anywhere around the world thanks to these people: \A";
+        --FCL-Credits_SGN: "Thanks to those who joined the SGN Discord Server for Flashcord 🗣️ ! \A";
+        --FCL-Credits_GitHub: "And finally, thanks for those who stared the Flashcord GitHub Repo ✨ ! \A";
+        --FCL-Credits_Special: "🌠 Special Thanks: \A";
+        --FCL-Credits_Evelyn: "- Evelyn: Created " var(--Q) "Magnificent" var(--Q) " and was ok being bullied by me to fix specific bugs that were found when using Flashcord \A";
+        --FCL-Credits_Tharki: "- Tharki-God: Person to have given me the idea (accidentally) to create the Plugins section of the Flashcord Store \A";
+        --FCL-Credits_East-Arctica: "- East_Arctica: Posted a plugin to the Flashcord Store, also is just in general a super cool person \A\A";
 
-        /* Insert your quote here in the format:
-        --FCL-Credits_Translator-Quote: "      🗨️ [Translator Quote] NameHere: " var(--Q) "Actual Quote here" var(--Q)" \A\A ";
-        */
-        --FCL-Credits_Translator-Quote: "";
-    }
+        /* Insert your quote here in the format:
+        --FCL-Credits_Translator-Quote: "      🗨️ [Translator Quote] NameHere: " var(--Q) "Actual Quote here" var(--Q)" \A\A ";
+        */
+        --FCL-Credits_Translator-Quote: "";
+    }
 }

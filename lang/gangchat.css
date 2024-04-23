@@ -1,65 +1,64 @@
 @container GangChat (min-width: 0) { /* Alright you sussy wankers */
-    .platform-win [class^="notAppAsidePanel_"]::before { content: "🪟 "var(--FlashCore-Branch) " " var(--FlashCore-Channel) "-" var(--FlashCore-Version)" | Report Sirius's stupidity in #🐞sgn-issues-reports on the SGN Discord Server." }
+    .platform-win [class^="notAppAsidePanel_"]::before { content: "🪟 "var(--FlashCore-Branch) " " var(--FlashCore-Channel) "-" var(--FlashCore-Version)" | Report Sirius's stupidity in #🐞sgn-issues-reports on the SGN Discord Server." }
 
-    #app-mount > div {
-        --FCL-Crash_Header: "YOU MAY HAVE SEEN A BUCKET";
-        --FCL-Crash_Paragraph: "BUT YOU'VE NEVER SEEN ME FUCK IT";
-    
-        --FCL-Blackout_Android: "⚠️ use ethernet you fuf";
+    #app-mount > div {
+        --FCL-Crash_Header: "YOU MAY HAVE SEEN A BUCKET";
+        --FCL-Crash_Paragraph: "BUT YOU'VE NEVER SEEN ME FUCK IT";
+    
+        --FCL-Blackout_Android: "⚠️ use ethernet you fuf";
 
-        --FCL-Theme_Light: " ☀️ HERE COMES THE SUN-";
-        --FCL-Theme_Dark: " 🌙 week -minos prime";
-        --FCL-Theme_Sync: " 🕒 based mode";
-        --FCL-Theme_CBM-Light: " 🖼️ LOOK AT THIS PHOTOGRAPH-";
-        --FCL-Theme_CBM-Dark: " 🖼️ weeb mode but for the weak";
-        --FCL-Theme_Iridescent:  " 💥 my main goal is to blow up";
-        --FCL-Theme_Terminal:  " 💾 arch linux is cringe";
-        --FCL-Theme_Transparent: " 👻 i dont feel so good-";
+        --FCL-Theme_Light: " ☀️ HERE COMES THE SUN-";
+        --FCL-Theme_Dark: " 🌙 week -minos prime";
+        --FCL-Theme_Sync: " 🕒 based mode";
+        --FCL-Theme_CBM-Light: " 🖼️ LOOK AT THIS PHOTOGRAPH-";
+        --FCL-Theme_CBM-Dark: " 🖼️ weeb mode but for the weak";
+        --FCL-Theme_Iridescent:  " 💥 my main goal is to blow up";
+        --FCL-Theme_Terminal:  " 💾 arch linux is cringe";
+        --FCL-Theme_Transparent: " 👻 i dont feel so good-";
 
-        --FCL-Warning_Beta: "  ⚠️ Flashcord is IN **BETA** YOU FU-.";
-        --FCL-Warning_Unfinished: " this mode will never be finished lol.  ";
-        --FCL-Warning_Deprecated: "  ⛔ USE THEMEHOOKER GOD DAMN IT-  ";
-    
-        --FCL-AT_Basic: "📷 Flashcord's Unbloated Themes";
-        --FCL-AT_Advanced: "📸 Flashcord's Bloatfest Themes";
-        --FCL-AT_Notice: "📖 read the fucking manual";
-        --FCL-AT_Requirements: "⚠️ pay for nitro or use sussy plugin \A ";
-        --FCL-AT_ThemeHooker: var(--FCL-AT_Requirements) "✅ you are a certified sussy wanker";
-        --FCL-AT_No-ThemeHooker: var(--FCL-AT_Requirements) "⛔ you are not a certified sussy wanker";
+        --FCL-Warning_Beta: "  ⚠️ Flashcord is IN **BETA** YOU FU-.";
+        --FCL-Warning_Unfinished: " this mode will never be finished lol.  ";
+        --FCL-Warning_Deprecated: "  ⛔ USE THEMEHOOKER GOD DAMN IT-  ";
+    
+        --FCL-AT_Basic: "📷 Flashcord's Unbloated Themes";
+        --FCL-AT_Advanced: "📸 Flashcord's Bloatfest Themes";
+        --FCL-AT_Notice: "📖 read the fucking manual";
+        --FCL-AT_Requirements: "⚠️ pay for nitro or use sussy plugin \A ";
+        --FCL-AT_ThemeHooker: var(--FCL-AT_Requirements) "✅ you are a certified sussy wanker";
+        --FCL-AT_No-ThemeHooker: var(--FCL-AT_Requirements) "⛔ you are not a certified sussy wanker";
 
-        --FCL-AT_CBM-Light: "i can't fucking believe they put yeah miku as the first flashcord custom background background";
-        --FCL-AT_CBM-Dark: "hey look, sirius' cringe channel banner.";
-        --FCL-AT_Iridescent: "BUT CAN IT RUN FLASHCORD'S IRIDESCENT MODE?";
-        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) " (flashbang edition)";
-        --FCL-AT_Iridescent-Dark: var(--FCL-AT_Iridescent) " (boring edition)";
-        --FCL-AT_Terminal: "debian sid > arch linux :trolley:";
-        --FCL-AT_Transparent: "I CANT SEE SHIT";
+        --FCL-AT_CBM-Light: "i can't fucking believe they put yeah miku as the first flashcord custom background background";
+        --FCL-AT_CBM-Dark: "hey look, sirius' cringe channel banner.";
+        --FCL-AT_Iridescent: "BUT CAN IT RUN FLASHCORD'S IRIDESCENT MODE?";
+        --FCL-AT_Iridescent-Light: var(--FCL-AT_Iridescent) " (flashbang edition)";
+        --FCL-AT_Iridescent-Dark: var(--FCL-AT_Iridescent) " (boring edition)";
+        --FCL-AT_Terminal: "debian sid > arch linux :trolley:";
+        --FCL-AT_Transparent: "I CANT SEE SHIT";
 
-        --FCL-Effect: "\A 🎉 Flashcord Benchmark:";
-        --FCL-Effect_Small:  var(--FCL-Effect) " your dong's size";
-        --FCL-Effect_Shaking: var(--FCL-Effect) " your mom walking to your room";
-        --FCL-Effect_Dramatic: var(--FCL-Effect) " tetrio banner looking mf";
-        --FCL-Effect_Fade-Bottom: var(--FCL-Effect) " reverse, loop it, and it does a funny";
-        --FCL-Effect_4Chan: var(--FCL-Effect) " gangchat but worse";
-        --FCL-Effect_Wide:  var(--FCL-Effect) " DAMN BOII HE THICC";
+        --FCL-Effect: "\A 🎉 Flashcord Benchmark:";
+        --FCL-Effect_Small:  var(--FCL-Effect) " your dong's size";
+        --FCL-Effect_Shaking: var(--FCL-Effect) " your mom walking to your room";
+        --FCL-Effect_Dramatic: var(--FCL-Effect) " tetrio banner looking mf";
+        --FCL-Effect_Fade-Bottom: var(--FCL-Effect) " reverse, loop it, and it does a funny";
+        --FCL-Effect_4Chan: var(--FCL-Effect) " gangchat but worse";
+        --FCL-Effect_Wide:  var(--FCL-Effect) " DAMN BOII HE THICC";
 
-        --FCL-Addon_Welcome: "\A\A📸 u using " var(--FlashCore-Branch) " on the " var(--FlashCore-Channel) " branch of cringecord.\A\A";
+        --FCL-Addon_Welcome: "\A\A📸 u using " var(--FlashCore-Branch) " on the " var(--FlashCore-Channel) " branch of cringecord.\A\A";
 
-        --FCL-Credits_About: "\A Flashcord Lore";
+        --FCL-Credits_About: "\A Flashcord Lore";
 
-        --FCL-Credits_SNDL: "Flashcord comes from the inner depths of hell. \A";
-        --FCL-Credits_Help: "Support is held on Sirius's half baked Discord Server. \A\A";
-        --FCL-Credits_Alpha: "these nerds got access to flashcord early ⤵️\A";
-        --FCL-Credits_Suppoters: "smh these people wasted their 💸 \A";
-        --FCL-Credits_Translators: "🌐 these people participated in the additional 50kb in size of flashcord ⤵️ \A";
-        --FCL-Credits_SGN: "These poor souls keep getting pinged for no reason ⤵️\A";
-        --FCL-Credits_GitHub: "they stared a broken ass theme ⤵️\A";
-        --FCL-Credits_Special: "🌠 Special " var(--Q) "Go Screw Yourself" var(--Q) ": \A";
-        --FCL-Credits_Evelyn: "- Evelyn: Created " var(--Q) "Magnificent" var(--Q) " and broke every time. \A";
-        --FCL-Credits_Tharki: "- Tharki-God: This nerd make an objectively better version of ThemeHooker and i'm mad >:( \A";
-        --FCL-Credits_East-Arctica: "- East_Arctica: Another nerd >:( Wanted to write the back-end of my website to help me when all I wanted was suffering \A\A";
-        --FCL-Credits_Copyright: "Flashcord © 2023-2024 by SiriusBYT is licensed under your mom called CC BY-NC-ND 4.0. \A\A\A\A\A\A\A\A\A\A";
+        --FCL-Credits_SNDL: "Flashcord comes from the inner depths of hell. \A";
+        --FCL-Credits_Help: "Support is held on Sirius's half baked Discord Server. \A\A";
+        --FCL-Credits_Alpha: "these nerds got access to flashcord early ⤵️\A";
+        --FCL-Credits_Suppoters: "smh these people wasted their 💸 \A";
+        --FCL-Credits_Translators: "🌐 these people participated in the additional 50kb in size of flashcord ⤵️ \A";
+        --FCL-Credits_SGN: "These poor souls keep getting pinged for no reason ⤵️\A";
+        --FCL-Credits_GitHub: "they stared a broken ass theme ⤵️\A";
+        --FCL-Credits_Special: "🌠 Special " var(--Q) "Go Screw Yourself" var(--Q) ": \A";
+        --FCL-Credits_Evelyn: "- Evelyn: Created " var(--Q) "Magnificent" var(--Q) " and broke every time. \A";
+        --FCL-Credits_Tharki: "- Tharki-God: This nerd make an objectively better version of ThemeHooker and i'm mad >:( \A";
+        --FCL-Credits_East-Arctica: "- East_Arctica: Another nerd >:( Wanted to write the back-end of my website to help me when all I wanted was suffering \A\A";
 
-        --FCL-Credits_Translator-Quote: "      🗨️ [Sussy Wanker Quote] SiriusBYT: " var(--Q) "GangChat will rule over the world." var(--Q)" \A\A ";
-    }
+        --FCL-Credits_Translator-Quote: "      🗨️ [Sussy Wanker Quote] SiriusBYT: " var(--Q) "GangChat will rule over the world." var(--Q)" \A\A ";
+    }
 }
